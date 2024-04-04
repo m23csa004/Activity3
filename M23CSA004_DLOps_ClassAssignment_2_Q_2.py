@@ -97,7 +97,8 @@ for optimizer_name, optimizer in optimizers.items():
     results[optimizer_name] = (train_losses, train_accuracies)
 
 # Plotting training curves
-.figure(figsize=(10, 5))  # code removed to get error
+plt.figure(figsize=(10, 5))  # code removed to get error
+# again rectified code
 for optimizer_name, (train_losses, train_accuracies) in results.items():
     plt.plot(train_losses,"-o", label=f"{optimizer_name} Loss") #Other change that has no error
 plt.xlabel("Epochs")
