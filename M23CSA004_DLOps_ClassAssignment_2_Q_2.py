@@ -7,6 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1Uw-an28_iitonr_7tbrVKWbjCA7yWw1g
 """
 
+## added comments to push into Version1
+
+
 import torch
 import torchvision
 import torchvision.transforms as transforms
